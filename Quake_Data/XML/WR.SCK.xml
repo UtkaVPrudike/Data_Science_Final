@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Source>NCEDC</Source>
+ <Sender>NCEDC</Sender>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=WR&amp;sta=SCK&amp;cha=EHZ&amp;loc=--&amp;start=2012-10-21T06:50:10.000-07:00&amp;end=2012-10-21T07:55:10.000-07:00&amp;level=resp</ModuleURI>
+ <Created>2024-06-08T15:18:13</Created>
+ <Network code="WR" startDate="1964-06-04T07:00:00" endDate="3000-12-31T23:59:59">
+  <Description>California Division of Water Resources</Description>
+  <TotalNumberStations>37</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station code="SCK" endDate="3000-01-01T00:00:00" startDate="2000-12-20T00:00:00">
+   <Latitude>37.183208</Latitude>
+   <Longitude>-121.071159</Longitude>
+   <Elevation>72.0</Elevation>
+   <Site>
+    <Name>San Luis Crk Check 11</Name>
+   </Site>
+   <CreationDate>2000-12-20T00:00:00</CreationDate>
+   <Channel code="EHZ" endDate="2013-03-19T00:00:00" locationCode="" startDate="2004-05-04T22:45:00">
+    <Latitude>37.183208</Latitude>
+    <Longitude>-121.071159</Longitude>
+    <Elevation>72.0</Elevation>
+    <Depth>0.0</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <Type>CONTINUOUS</Type>
+    <Type>GEOPHYSICAL</Type>
+    <SampleRate>100.0</SampleRate>
+    <ClockDrift>0.01</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>SS-1</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>-1.108278552E9</Value>
+      <Frequency>10.0</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>Velocity in Meters Per Second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <PolesZeros>
+       <InputUnits>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </OutputUnits>
+       <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+       <NormalizationFactor>.999849988748312</NormalizationFactor>
+       <NormalizationFrequency>10</NormalizationFrequency>
+       <Zero number="0">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Zero number="1">
+        <Real>0</Real>
+        <Imaginary>0</Imaginary>
+       </Zero>
+       <Pole number="0">
+        <Real>-4.39822971502571</Real>
+        <Imaginary>4.4870918174495</Imaginary>
+       </Pole>
+       <Pole number="1">
+        <Real>-4.39822971502571</Real>
+        <Imaginary>-4.4870918174495</Imaginary>
+       </Pole>
+      </PolesZeros>
+      <StageGain>
+       <Value>340</Value>
+       <Frequency>10</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <StageGain>
+       <Value>-3981</Value>
+       <Frequency>10</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="3">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>Digital Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+       <InputSampleRate>100.0</InputSampleRate>
+       <Factor>1</Factor>
+       <Offset>0</Offset>
+       <Delay>0.0</Delay>
+       <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+       <Value>818.8</Value>
+       <Frequency>10</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>

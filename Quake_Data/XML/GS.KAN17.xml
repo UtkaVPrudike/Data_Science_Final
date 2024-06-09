@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.52</Module>
+  <ModuleURI></ModuleURI>
+  <Created>2024-06-08T21:52:56.5409</Created>
+  <Network code="GS" startDate="1980-01-01T00:00:00.0000" restrictedStatus="open">
+   <Description>US Geological Survey Networks ()</Description>
+   <Identifier type="DOI">10.7914/SN/GS
+   </Identifier>
+   <TotalNumberStations>625</TotalNumberStations>
+   <SelectedNumberStations>1</SelectedNumberStations>
+   <Station code="KAN17" startDate="2015-04-16T15:00:00.0000" endDate="2019-07-30T19:39:00.0000" restrictedStatus="open" iris:alternateNetworkCodes=".UNRESTRICTED,_US-REGIONAL">
+    <Latitude>37.04407</Latitude>
+    <Longitude>-97.76475</Longitude>
+    <Elevation>355.0</Elevation>
+    <Site>
+     <Name>Caldwell West Station</Name>
+     <Description>station outside of garage. sensors buried.</Description>
+     <Town>Caldwell</Town>
+     <Region>Kansas</Region>
+     <Country>USA</Country>
+    </Site>
+    <CreationDate>2015-04-16T15:00:00.0000</CreationDate>
+    <TotalNumberChannels>21</TotalNumberChannels>
+    <SelectedNumberChannels>3</SelectedNumberChannels>
+    <Channel code="HHE" locationCode="01" startDate="2015-11-19T00:00:00.0000" endDate="2017-06-21T21:22:00.0000" restrictedStatus="open">
+     <Comment>
+      <Value>Swapped logger for orientation changes</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Comment>
+      <Value>Swap and reconfigure [LOGGER::130S-01::D1DF], [SENSOR::EPISENSOR ES-T::7152], [SENSOR::TRILLIUM COMPACT::3288]</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Latitude>37.04407</Latitude>
+     <Longitude>-97.76475</Longitude>
+     <Elevation>355</Elevation>
+     <Depth>0</Depth>
+     <Azimuth>270</Azimuth>
+     <Dip>0</Dip>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>2E02</SampleRate>
+     <Sensor>
+      <Type>NANOMETRICS</Type>
+      <Description>Velocity Transducer</Description>
+      <Manufacturer>NANOMETRICS</Manufacturer>
+      <Model>TRILLIUM COMPACT</Model>
+      <SerialNumber>3288</SerialNumber>
+     </Sensor>
+     <DataLogger>
+      <Type>REF TEK</Type>
+      <Manufacturer>REF TEK</Manufacturer>
+      <Model>130S-01</Model>
+      <SerialNumber>D1DF</SerialNumber>
+     </DataLogger>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>2.748987252E8</Value>
+       <Frequency>1.0</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in meters per second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Count in Digital counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros name="TRILLIUM-C_120SEC">
+        <Description>datasheet</Description>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in meters per second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>8.198425854783E11</NormalizationFactor>
+        <NormalizationFrequency>1.0</NormalizationFrequency>
+        <Zero number="7">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="8">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="9">
+          <Real minusError="0.0" plusError="0.0">-434.1</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.03712</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-0.03712</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real minusError="0.0" plusError="0.0">-371.2</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">475.5</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-475.5</Imaginary>
+        </Pole>
+        <Pole number="5">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">1508.0</Imaginary>
+        </Pole>
+        <Pole number="6">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-1508.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <StageGain>
+        <Value>749.1</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Count in Digital counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>200.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>366972.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+    <Channel code="HHN" locationCode="01" startDate="2015-11-19T00:00:00.0000" endDate="2017-06-21T21:22:00.0000" restrictedStatus="open">
+     <Comment>
+      <Value>Swapped logger for orientation changes</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Comment>
+      <Value>Swap and reconfigure [LOGGER::130S-01::D1DF], [SENSOR::EPISENSOR ES-T::7152], [SENSOR::TRILLIUM COMPACT::3288]</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Latitude>37.04407</Latitude>
+     <Longitude>-97.76475</Longitude>
+     <Elevation>355</Elevation>
+     <Depth>0</Depth>
+     <Azimuth>180</Azimuth>
+     <Dip>0</Dip>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>2E02</SampleRate>
+     <Sensor>
+      <Type>NANOMETRICS</Type>
+      <Description>Velocity Transducer</Description>
+      <Manufacturer>NANOMETRICS</Manufacturer>
+      <Model>TRILLIUM COMPACT</Model>
+      <SerialNumber>3288</SerialNumber>
+     </Sensor>
+     <DataLogger>
+      <Type>REF TEK</Type>
+      <Manufacturer>REF TEK</Manufacturer>
+      <Model>130S-01</Model>
+      <SerialNumber>D1DF</SerialNumber>
+     </DataLogger>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>2.748987252E8</Value>
+       <Frequency>1.0</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in meters per second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Count in Digital counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros name="TRILLIUM-C_120SEC">
+        <Description>datasheet</Description>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in meters per second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>8.198425854783E11</NormalizationFactor>
+        <NormalizationFrequency>1.0</NormalizationFrequency>
+        <Zero number="7">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="8">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="9">
+          <Real minusError="0.0" plusError="0.0">-434.1</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.03712</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-0.03712</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real minusError="0.0" plusError="0.0">-371.2</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">475.5</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-475.5</Imaginary>
+        </Pole>
+        <Pole number="5">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">1508.0</Imaginary>
+        </Pole>
+        <Pole number="6">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-1508.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <StageGain>
+        <Value>749.1</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Count in Digital counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>200.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>366972.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+    <Channel code="HHZ" locationCode="01" startDate="2015-11-19T00:00:00.0000" endDate="2017-06-21T21:22:00.0000" restrictedStatus="open">
+     <Comment>
+      <Value>Swapped logger for orientation changes</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Comment>
+      <Value>Swap and reconfigure [LOGGER::130S-01::D1DF], [SENSOR::EPISENSOR ES-T::7152], [SENSOR::TRILLIUM COMPACT::3288]</Value>
+      <BeginEffectiveTime>2015-11-19T00:00:00.0000</BeginEffectiveTime>
+      <EndEffectiveTime>2017-06-21T21:22:00.0000</EndEffectiveTime>
+     </Comment>
+     <Latitude>37.04407</Latitude>
+     <Longitude>-97.76475</Longitude>
+     <Elevation>355</Elevation>
+     <Depth>0</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>-90</Dip>
+     <Type>GEOPHYSICAL</Type>
+     <SampleRate>2E02</SampleRate>
+     <Sensor>
+      <Type>NANOMETRICS</Type>
+      <Description>Velocity Transducer</Description>
+      <Manufacturer>NANOMETRICS</Manufacturer>
+      <Model>TRILLIUM COMPACT</Model>
+      <SerialNumber>3288</SerialNumber>
+     </Sensor>
+     <DataLogger>
+      <Type>REF TEK</Type>
+      <Manufacturer>REF TEK</Manufacturer>
+      <Model>130S-01</Model>
+      <SerialNumber>D1DF</SerialNumber>
+     </DataLogger>
+     <Response>
+     <InstrumentSensitivity>
+       <Value>2.748987252E8</Value>
+       <Frequency>1.0</Frequency>
+       <InputUnits>
+         <Name>m/s</Name>
+         <Description>Velocity in meters per second</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Count in Digital counts</Description>
+       </OutputUnits>
+     </InstrumentSensitivity>
+      <Stage number="1">
+      <PolesZeros name="TRILLIUM-C_120SEC">
+        <Description>datasheet</Description>
+        <InputUnits>
+          <Name>m/s</Name>
+          <Description>Velocity in meters per second</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </OutputUnits>
+        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+        <NormalizationFactor>8.198425854783E11</NormalizationFactor>
+        <NormalizationFrequency>1.0</NormalizationFrequency>
+        <Zero number="7">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="8">
+          <Real minusError="0.0" plusError="0.0">0.0</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Zero number="9">
+          <Real minusError="0.0" plusError="0.0">-434.1</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Zero>
+        <Pole number="0">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.03712</Imaginary>
+        </Pole>
+        <Pole number="1">
+          <Real minusError="0.0" plusError="0.0">-0.03691</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-0.03712</Imaginary>
+        </Pole>
+        <Pole number="2">
+          <Real minusError="0.0" plusError="0.0">-371.2</Real>
+          <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+        </Pole>
+        <Pole number="3">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">475.5</Imaginary>
+        </Pole>
+        <Pole number="4">
+          <Real minusError="0.0" plusError="0.0">-373.9</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-475.5</Imaginary>
+        </Pole>
+        <Pole number="5">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">1508.0</Imaginary>
+        </Pole>
+        <Pole number="6">
+          <Real minusError="0.0" plusError="0.0">-588.4</Real>
+          <Imaginary minusError="0.0" plusError="0.0">-1508.0</Imaginary>
+        </Pole>
+      </PolesZeros>
+      <StageGain>
+        <Value>749.1</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="2">
+      <StageGain>
+        <Value>1.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+      <Stage number="3">
+      <Coefficients>
+        <InputUnits>
+          <Name>V</Name>
+          <Description>Voltage in Volts</Description>
+        </InputUnits>
+        <OutputUnits>
+          <Name>counts</Name>
+          <Description>Digital Count in Digital counts</Description>
+        </OutputUnits>
+        <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <Decimation>
+        <InputSampleRate>200.0</InputSampleRate>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Delay>0.0</Delay>
+        <Correction>0.0</Correction>
+      </Decimation>
+      <StageGain>
+        <Value>366972.0</Value>
+        <Frequency>1.0</Frequency>
+      </StageGain>
+
+      </Stage>
+     </Response>
+    </Channel>
+   </Station>
+  </Network>
+ </FDSNStationXML>

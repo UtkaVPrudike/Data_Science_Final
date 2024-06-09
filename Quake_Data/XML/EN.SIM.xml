@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
+ <Source>SCEDC</Source>
+ <Sender>SCEDC</Sender>
+ <Module>SCEDC WEB SERVICE: fdsnws-station | version: 1.1</Module>
+ <ModuleURI>http://service.scedc.caltech.edu/fdsnws/station/1/query?net=EN&amp;sta=SIM&amp;cha=EHZ&amp;loc=06&amp;start=2012-08-26T20:52:57.000-07:00&amp;end=2012-08-26T21:57:57.000-07:00&amp;level=resp</ModuleURI>
+ <Created>2024-06-08T22:20:54</Created>
+ <Network code="EN" startDate="2007-12-01T00:00:00" endDate="3000-01-01T00:00:00">
+  <Description>EN</Description>
+  <TotalNumberStations>8</TotalNumberStations>
+  <SelectedNumberStations>1</SelectedNumberStations>
+  <Station code="SIM" endDate="3000-01-01T00:00:00" startDate="2007-12-01T00:00:00">
+   <Latitude>33.1913</Latitude>
+   <Longitude>-115.545</Longitude>
+   <Elevation>-64.0</Elevation>
+   <Site>
+    <Name>Simpson, , , </Name>
+   </Site>
+   <CreationDate>2007-12-01T00:00:00</CreationDate>
+   <Channel code="EH2" endDate="3000-01-01T00:00:00" locationCode="06" startDate="2007-12-01T00:00:00">
+    <Latitude>33.1913</Latitude>
+    <Longitude>-115.545</Longitude>
+    <Elevation>-64.0</Elevation>
+    <Depth>91.4</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>0.0</Dip>
+    <SampleRate>100.0</SampleRate>
+    <ClockDrift>0.01</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>L15B</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>2.08876E7</Value>
+      <Frequency>1.2</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>VELOCITY in Meters per second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <StageGain>
+       <Value>49.8</Value>
+       <Frequency>1.2</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>VOLTAGE</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>DIGITAL UNIT in Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <StageGain>
+       <Value>419430</Value>
+       <Frequency>1.2</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel><Channel code="EHZ" endDate="3000-01-01T00:00:00" locationCode="06" startDate="2007-12-01T00:00:00">
+    <Latitude>33.1913</Latitude>
+    <Longitude>-115.545</Longitude>
+    <Elevation>-64.0</Elevation>
+    <Depth>91.4</Depth>
+    <Azimuth>0.0</Azimuth>
+    <Dip>-90.0</Dip>
+    <SampleRate>100.0</SampleRate>
+    <ClockDrift>0.01</ClockDrift>
+    <CalibrationUnits>
+     <Name>A</Name>
+     <Description>Amperes</Description>
+    </CalibrationUnits>
+    <Sensor>
+     <Description>L15B</Description>
+    </Sensor>
+    <Response>
+     <InstrumentSensitivity>
+      <Value>1.86646E7</Value>
+      <Frequency>1.2</Frequency>
+      <InputUnits>
+       <Name>M/S</Name>
+       <Description>VELOCITY in Meters per second</Description>
+      </InputUnits>
+      <OutputUnits>
+       <Name>COUNTS</Name>
+       <Description>Digital Counts</Description>
+      </OutputUnits>
+     </InstrumentSensitivity>
+     <Stage number="1">
+      <StageGain>
+       <Value>44.5</Value>
+       <Frequency>1.2</Frequency>
+      </StageGain>
+     </Stage>
+     <Stage number="2">
+      <Coefficients>
+       <InputUnits>
+        <Name>V</Name>
+        <Description>VOLTAGE</Description>
+       </InputUnits>
+       <OutputUnits>
+        <Name>COUNTS</Name>
+        <Description>DIGITAL UNIT in Counts</Description>
+       </OutputUnits>
+       <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+      </Coefficients>
+      <StageGain>
+       <Value>419430</Value>
+       <Frequency>1.2</Frequency>
+      </StageGain>
+     </Stage>
+    </Response>
+   </Channel>
+  </Station>
+ </Network>
+</FDSNStationXML>
